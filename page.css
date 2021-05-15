@@ -15,7 +15,7 @@ body {
 
 #box {
     background-color: #FFFFFF;
-    /* background-image: url(background-2426328__340.webp); */
+    background-image: url(background-2426328__340.webp);
     border: 3px;
     border-color: white;
     box-shadow: 5px 3px rgb(196, 194, 199);
@@ -36,7 +36,7 @@ li {
     color: black;
 }
 
-#heading {
+.heading {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: black;
@@ -47,13 +47,39 @@ li {
     padding: auto;
 }
 
-#button {
+.button {
     padding: auto;
 }
 
-.copyright {
+#copyright {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
+}
+h4{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+}
+body.theme{
+    background-image: url(unsplash.jpg);
+    background-size: cover;
+}
+
+.me:hover,.me:focus{
+    transform: scale(1.1);
+}
+.me{
+    width: 180px;
+    height: 30px;
+    margin-bottom: 2%;
+    border: solid 3px;
+    border-color: cyan;
+    background-color:darkblue;
+    text-align: center;
+    cursor: pointer;
+    color:beige;
+    font-size: 17px;
+    padding: 3px;
 }
